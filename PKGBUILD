@@ -6,8 +6,8 @@
 _offline="false"
 _git="false"
 pkgname=distributed-encoder
-pkgver=0.0.0.0.0.0.0.0.0.0.0.0.0.1
-_commit="285ff9b9989f600639dacb17e4f368c3019c7989"
+pkgver=0.0.0.0.0.0.0.0.0.0.0.0.0.1.1
+_commit="7e3223cca3b71410e3ad09470510c834006cd898"
 pkgrel=1
 _pkgdesc=(
   "Network distributed encoder."
@@ -68,7 +68,7 @@ _tarname="${pkgname}-${_tag}"
     _sum="d4f4179c6e4ce1702c5fe6af132669e8ec4d0378428f69518f2926b969663a91"
   elif [[ "${_tag_name}" == "commit" ]]; then
     _tar="${_tarname}.zip::${_url}/archive/${_commit}.zip"
-    _sum="a4c200ca722bffda633aef7232726590d55a9d7654d4fd64acdbd76220a770dd"
+    _sum="bd4490c3c5f3c892f1495d21a3d7ee94044ebf0b123ed925e293eec5d1dae9cc"
   fi && \
     source+=(
       "${_tar}"

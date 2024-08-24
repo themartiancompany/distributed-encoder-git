@@ -1,6 +1,6 @@
 pkgbase = distributed-encoder
 	pkgdesc = Network distributed encoder.
-	pkgver = 0.0.0.0.0.0.0.0.0.0.0.0.0.1
+	pkgver = 0.0.0.0.0.0.0.0.0.0.0.0.0.1.1
 	pkgrel = 1
 	url = https://github.com/themartiancompany/distributed-encoder
 	arch = any
@@ -9,8 +9,8 @@ pkgbase = distributed-encoder
 	makedepends = make
 	depends = remote-encoder
 	depends = media-tools
-	source = distributed-encoder-285ff9b9989f600639dacb17e4f368c3019c7989.zip::https://github.com/themartiancompany/distributed-encoder/archive/285ff9b9989f600639dacb17e4f368c3019c7989.zip
+	source = distributed-encoder-7e3223cca3b71410e3ad09470510c834006cd898.zip::https://github.com/themartiancompany/distributed-encoder/archive/7e3223cca3b71410e3ad09470510c834006cd898.zip
 	validpgpkeys = 97E989E6CF1D2C7F7A41FF9F95684DBE23D6A3E9
-	sha256sums = a4c200ca722bffda633aef7232726590d55a9d7654d4fd64acdbd76220a770dd
+	sha256sums = bd4490c3c5f3c892f1495d21a3d7ee94044ebf0b123ed925e293eec5d1dae9cc
 
 pkgname = distributed-encoder
